@@ -10,7 +10,7 @@
 
   ここに 書いて ある ことは、いまの アプリの 作りと 一致させて いる:
     ・インターネットの 権限（permissions/internet）が 無い … 通信できない
-    ・入れて いる 権限は 振動（VIBRATE）だけ
+    ・権限は 1つも 要求して いない（2026-09-23 に 振動を 外した。コードで 使って いなかった）
     ・広告・課金・アクセス解析の しくみは 入って いない
   **アプリの 作りを 変えたら、ここも 直す こと。**
 
@@ -80,10 +80,8 @@
 本アプリを削除すると、これらのデータも削除されます。</p>
 
 <h2>3. 使用する権限</h2>
-<ul>
-  <li><strong>振動（バイブレーション）</strong>: 宝石を見つけたときなどに端末を振動させるためだけに使用します。</li>
-</ul>
-<p>これ以外の権限は要求しません。</p>
+<p>本アプリは、端末の権限を<strong>一切要求しません</strong>。
+インターネット接続、カメラ、マイク、位置情報、連絡先、ストレージなど、いずれも使用しません。</p>
 
 <h2>4. 第三者への提供</h2>
 <p>情報を収集していないため、第三者に提供することもありません。</p>
@@ -127,10 +125,8 @@ The App does not collect personal information from users or children.</p>
 is stored only on your device and is never sent anywhere. Uninstalling the App deletes this data.</p>
 
 <h2>3. Permissions</h2>
-<ul>
-  <li><strong>Vibration</strong>: used only to vibrate the device, for example when a gem is found.</li>
-</ul>
-<p>No other permissions are requested.</p>
+<p>The App requests <strong>no device permissions at all</strong>.
+It does not use internet access, camera, microphone, location, contacts or storage.</p>
 
 <h2>4. Sharing with third parties</h2>
 <p>Because we collect no information, we share none with third parties.</p>
